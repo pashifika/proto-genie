@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto_genie.example.helloworld;
+option go_package = "github.com/pashifika/proto-genie/examples/rpc";
+
+message HelloReq {
+  string subject = 1;
+}
+
+message HelloResp {
+  string text = 1;
+}

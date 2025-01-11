@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package proto_genie.example.helloworld;
+option go_package = "github.com/pashifika/proto-genie/examples";
+
+import "rpc/msg.proto";
+
+service HelloWorld {
+  rpc Hello(HelloReq) returns (HelloResp);
+}
