@@ -1,0 +1,10 @@
+version: 1.0.0
+
+settings:
+  template_root: ./xx
+
+generators:
+  - name: msg_usecase
+    type: message
+    template: xx.tmpl
+    output: ./xx/{{snake_name}}.go
