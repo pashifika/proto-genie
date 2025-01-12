@@ -1,4 +1,4 @@
-// Package protodesc
+// Package proto
 package proto
 
 import (
